@@ -24,6 +24,9 @@ python nebulaguard.py --watch ./Documents
 [BACKUP] Version saved.
 [REPORT] report.html generated.
 
+cd NebulaGuard
+pip install -r requirements.txt
+python nebulaguard.py --watch ./Doc
 ---
 
 ### Folder Structure
