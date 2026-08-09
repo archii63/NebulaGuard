@@ -23,7 +23,9 @@ python nebulaguard.py --watch ./Documents
 [INFO] File modified: report.docx
 [BACKUP] Version saved.
 [REPORT] report.html generated.
-
+[INFO] Monitoring: ./Documents
+[INFO] File modified: report.docx
+[BACKUP] Version saved.
 cd NebulaGuard
 pip install -r requirements.txt
 python nebulaguard.py --watch ./Doc
