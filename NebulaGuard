@@ -15,16 +15,15 @@ NebulaGuard is a modern file monitoring and backup utility written in Python.
 
 ```bash
 git clone https://github.com/yourusername/NebulaGuard.git
-
-cd NebulaGuard
-pip install -r requirements.txt
-python nebulaguard.py --watch ./Documents
-[INFO] Monitoring: ./Documents
 [INFO] File modified: report.docx
 [BACKUP] Version saved.
 [REPORT] report.html generated.
 [INFO] Monitoring: ./Documents
 [INFO] File modified: report.docx
+cd NebulaGuard
+pip install -r requirements.txt
+python nebulaguard.py --watch ./Documents
+[INFO] Monitoring: ./Documents
 [BACKUP] Version saved.
 cd NebulaGuard
 pip install -r requirements.txt
